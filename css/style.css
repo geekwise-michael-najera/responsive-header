@@ -39,6 +39,10 @@ span{ display: block;
     margin: 0 auto;
     width: calc(3008px/2);
     border: 50px solid blue;
+<<<<<<< HEAD
     transform: translateY(40px);}}
     
     
+=======
+    transform: translateY(40px);}}
+>>>>>>> refs/remotes/origin/master
