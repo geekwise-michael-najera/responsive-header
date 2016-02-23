@@ -22,7 +22,7 @@ span{ display: block;
       width: 80%;  
     }
 
-img{ display: block;
+#lrg-img{ display: block;
     margin: 0 auto;
     width: calc(3008px/2);
     border: 50px solid blue;
@@ -30,7 +30,7 @@ img{ display: block;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px)
-{img{ display: block;
+{#lrg-img{ display: block;
     margin: 0 auto;
     width: calc(3008px/5);
     border: 50px solid red;
