@@ -1,48 +1,45 @@
 html{
       margin: 0;
       padding: 0;
-      height: 100%;
+      height: auto;
       width: 100%;
-    
+      box-sizing: border-box;
 }
 body{ margin: 0;
       padding: 0;
-      height: 100%;
-      width: 100%;
-      background-color: red
+      width: 90%;
+      background-color: gray
 }
       
 header{ margin: 0;
         padding: 0;
         height: auto;
         width: 80%;
-        font-size: 62px;
+        font-size: 32px;
         text-align: center;
         background-color: gold;
     }
 
-span{ display: block;
+span{ margin: 0 auto;
+      display: block;
       height: auto;
       width: 80%;
-      background-color: white;
+      padding: 0;
     }
 
-#lrg-img{ display: block;
+#lrg-img{ 
+    display: block;
     margin: 0 auto;
-    width: calc(3008px/2);
-    border: 50px solid blue;
+    width: calc(3008px/8);
+    height: auto;
+    border: 50px solid red;
     transform: translateY(40px);
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px)
 {#lrg-img{ display: block;
     margin: 0 auto;
-    width: calc(3008px/2);
+    width: calc(3008px/8);
     border: 50px solid blue;
-<<<<<<< HEAD
     transform: translateY(40px);}}
     
-    
-=======
-    transform: translateY(40px);}}
->>>>>>> refs/remotes/origin/master
