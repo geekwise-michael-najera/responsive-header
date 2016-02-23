@@ -9,17 +9,22 @@ body{ margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
+      background-color: red
 }
       
 header{ margin: 0;
         padding: 0;
         height: auto;
         width: 80%;
+        font-size: 62px;
+        text-align: center;
+        background-color: gold;
     }
 
 span{ display: block;
       height: auto;
-      width: 80%;  
+      width: 80%;
+      background-color: white;
     }
 
 #lrg-img{ display: block;
