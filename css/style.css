@@ -31,8 +31,12 @@ span{ margin: 0 auto;
     display: block;
     margin: 0 auto;
     width: calc(3008px/8);
+<<<<<<< HEAD
     height: auto;
     border: 50px solid red;
+=======
+    border: 50px solid blue;
+>>>>>>> refs/remotes/origin/master
     transform: translateY(40px);
 }
 
